@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Felipa|Raleway:400,600,700");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  background-color: #282c34;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}

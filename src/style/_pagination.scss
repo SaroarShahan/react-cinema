@@ -1,0 +1,40 @@
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: 0.4rem;
+  .disabled > a,
+  .disabled > a:focus,
+  .disabled > a:hover {
+    color: #fff;
+    background-color: $primary;
+    cursor: not-allowed;
+  }
+
+  li:first-child > a {
+    margin-left: 0;
+    border-bottom-left-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+  }
+  li:last-child > a {
+    border-bottom-right-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+  }
+
+  a {
+    color: $primary;
+    border: 1px solid $primary;
+    padding: 0.6rem 1.2rem;
+    margin-left: -0.1rem;
+  }
+
+  .active {
+    a {
+      background-color: $primary;
+      color: #fff;
+      border-color: $primary;
+      cursor: default;
+    }
+  }
+}
